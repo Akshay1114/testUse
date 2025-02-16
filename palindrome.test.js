@@ -1,4 +1,4 @@
-const isPalindrome = require('../src/palindrome');
+const isPalindrome = require('./palindrome');
 
 test('racecar is a palindrome', () => {
     expect(isPalindrome('racecar')).toBe(true);
